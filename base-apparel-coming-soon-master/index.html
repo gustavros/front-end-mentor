@@ -20,19 +20,23 @@
       <h1 class="header-text">
         <span class="active">
           We're
-          <br>
         </span> 
         coming
-        <br> 
         soon
       </h1>
       <span>
         Hello fellow shoppers! We're currently building our new fashion store.
         Add your email below to stay up-to-date with announcements and our launch deals.
       </span>
-      <form action="#" class="form-main"> <!-- action="#" means the form will submit to the same page -->
+      <form action="#" class="form-main"> 
         <input type="email" name="email" id="email" placeholder="Email Address">
-        <button type="submit"><img src="images/icon-arrow.svg" alt=""></button>
+        
+        <button type="submit">
+          <img src="images/icon-arrow.svg" alt="">
+          <img class="img-error" id="img-error" src="images/icon-error.svg" alt="">
+        </button>
+      <p class="error">Please provide a valid email</p>
+
       </form>
     </div>
     <div class="right-side">
@@ -40,11 +44,11 @@
     </div>
   </main>
   
-  <!-- <footer>
+  <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://github.com/gustavros" target="_blank">gustavro</a>.
-    </p> -->
+    </p>
   </footer>
 </body>
 </html>
