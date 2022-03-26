@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  background-image: url(../base-apparel-coming-soon-master/images/bg-pattern-desktop.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left-side {
+  width: 55%;
+  height: auto;
+  margin: 50px;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+}
+
+.left-side .logo {
+  margin-bottom: 30px;
+}
+
+.left-side span {
+  color: #cb9a9a;
+  max-width: 500px;
+  font-size: 1.2rem;
+}
+
+.left-side .header-text {
+  font-size: 2.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  margin-bottom: 30px;
+}
+
+.right-side img {
+  width: 100%;
+  height: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
