@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #121417;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 98vh;
+  font-family: 'Overpass', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+body .main-container {
+  background-color: #1f262e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+body .stars-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 20px;
+}
+
+body .stars-container img {
+  background-color: #252d37;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+body .stars-container img:hover {
+  -webkit-animation: loop 2s infinite forwards;
+          animation: loop 2s infinite forwards;
+}
+
+@-webkit-keyframes loop {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes loop {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+body .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 20px;
+}
+
+body .text-container h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+body .text-container p {
+  font-size: 15px;
+  color: #959eac;
+  margin-top: 10px;
+}
+
+body .number-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  margin: 20px 0px;
+  width: 100%;
+}
+
+body .number-container button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #959eac;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #252d37;
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  -webkit-transition: all 130ms ease;
+  transition: all 130ms ease;
+}
+
+body .number-container button:hover {
+  background-color: #fb7413;
+  color: white;
+}
+
+body .number-container button:focus {
+  background-color: #959eac;
+  color: white;
+}
+
+body .btn-submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .btn-submit button {
+  width: 90%;
+  height: 40px;
+  background-color: #fb7413;
+  border-radius: 16px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 130ms ease;
+  transition: all 130ms ease;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+body .btn-submit button:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+.main-container-ty {
+  background-color: #1f262e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.main-container-ty .thankyou-container-ty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 20px;
+}
+
+.main-container-ty .thankyou-container-ty img {
+  padding: 15px;
+}
+
+.fb-container-ty span {
+  background-color: #252d37;
+  padding: 8px;
+  border-radius: 1000px;
+  color: #fb7413;
+  font-size: 15px;
+}
+
+.text-container-ty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+}
+
+.text-container-ty h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.text-container-ty p {
+  font-size: 15px;
+  color: #959eac;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.thanks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.thanks img {
+  margin: 20px 0px;
+}
+
+.thanks span {
+  margin: 30px 0px;
+  color: #fb7413;
+  border-radius: 1000px;
+  font-size: 15px;
+  background-color: #252d37;
+  padding: 4px 15px;
+}
+
+.thanks h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.thanks p {
+  font-size: 15px;
+  color: #959eac;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+/*# sourceMappingURL=main.css.map */
